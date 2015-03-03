@@ -1,0 +1,29 @@
+body{
+    width: 700px;
+    margin: auto;
+    background-image: url("images/8bit-skyline.jpg");
+    background-size: 100%;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+div.game{
+    visibility: hidden;
+    width: 600px;
+    height: 300px;
+    background-color: blueviolet;
+    border: solid 5px silver;
+    margin: auto;
+}
+.overlays{
+    position:absolute
+}
+h1{
+    text-align: center;
+}
+
+h3, h4{
+    background-color: darkslategray;
+    color: ghostwhite;
+    /*padding: 5px;*/
+
+}
